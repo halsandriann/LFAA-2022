@@ -1,149 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
-
-*{
-    box-sizing: border-box;
-}
-@media screen and (max-width: 1000px) {
-    #content,
-    aside {
-        width: 100%;
-        padding: 0;
-    }
-    
+html {
+  scroll-behavior: smooth;
 }
 
 .jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: #0057ff;
-    text-align: center;
-    color: white;
+  padding-top: 8rem;
 }
 
-nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 20px;
-    }
-
-nav {
-    background-color: #000000;
-    padding: 5px;
-}
-nav a {
-    color: rgb(43, 226, 134);
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    }
-
-body {
-    font-family:'Quicksand' sans-serif;
+#jadwal {
+  background: #ffca03bf;
 }
 
-nav a{
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
+section {
+  padding-top: 5rem;
 }
-nav a:hover{
-    font-weight: bold;
-}
-
-.profile header {
-    text-align: center;
-}
-h2, h3 {
-    color: rgb(43, 226, 134);
-}
-
 
 footer {
-    padding: 20px;
-    color: white;
-    background-color: #0057ff;
-    text-align: center;
-    font-weight: bold;
-    
-}
-
-.CP {
-    margin-left: 20px;
-}
-
-.featured-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: center;
-
-}
-
-.profile img {
-    width: 200px;
-
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
-
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Quicksand', sans-serif ;
-}
-main {
-    padding: 20px;
-}
-
-#content {
-    float: left;
-    width: 75%;
-}
-
-aside {
-    float: right;
-    width: 25%;
-    padding-left: 20px;
-}
-
-main {
-    padding: 20px;
-    overflow: auto;
-}
-
-nav{
-    position: sticky;
-    top: 0px;
-    background-color: #ffffff;
-    padding: 5px;
-}
-header {
-    display: inline;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #0057ff;
-    border-radius: 6px;
-    outline: none;
-}
-
-@media screen and (max-width: 1000px) {
-    #content,
-    aside {
-        width: 100%;
-        padding: 0;
-    }
-    
+  background: #ffca03bf;
 }
