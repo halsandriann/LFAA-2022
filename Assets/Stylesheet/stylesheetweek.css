@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 8rem;
+}
+
+#jadwal {
+  background: #ffca03bf;
+}
+
+section {
+  padding-top: 5rem;
+}
